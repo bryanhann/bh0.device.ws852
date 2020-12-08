@@ -32,7 +32,7 @@ ws852._upload () {
     done
 }
 
-define ws852.fetch () {
+ws852.fetch () {
     ws852._rename
     ws852._upload
 }
